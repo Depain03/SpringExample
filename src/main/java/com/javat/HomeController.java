@@ -18,6 +18,7 @@ public class HomeController {
 	@RequestMapping("/")
 	public String index() {
 		return "index";
+		//
 	}
 
 	@RequestMapping(value = "/save", method = RequestMethod.POST)
